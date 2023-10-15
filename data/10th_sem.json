@@ -1,0 +1,13 @@
+/* 1 */
+{
+    "semester" : "Semester 10",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4900",
+            "subject_name" : "Computer Science, Masters Thesis",
+            "credits" : 30.0,
+            "description" : "A master's thesis in computer science.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4900#tab=omEmnet"
+        }
+    ]
+}

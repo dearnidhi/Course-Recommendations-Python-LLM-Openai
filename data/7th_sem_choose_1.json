@@ -1,0 +1,55 @@
+/* 1 */
+{
+    "semester" : "Semester 7",
+    "courses" : [ 
+        {
+            "course_name" : "Software Engineering",
+            "mandatory" : [ 
+                {
+                    "course_code" : "COMP000",
+                    "subject_name" : "Complementary Subject",
+                    "credits" : 7.5,
+                    "description" : "A complementary subject for the Software Engineering course.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/COMP000#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4290",
+                    "subject_name" : "Customer Managed Project",
+                    "credits" : 15.0,
+                    "description" : "A project management course focused on customer needs and solutions.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4290#tab=omEmnet"
+                }
+            ],
+            "choose_1" : [ 
+                {
+                    "course_code" : "IT3402",
+                    "subject_name" : "Design of Graphical User Interfaces",
+                    "credits" : 7.5,
+                    "description" : "A course on designing graphical user interfaces.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/IT3402#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4250",
+                    "subject_name" : "Advanced Software Design",
+                    "credits" : 7.5,
+                    "description" : "An advanced course in software design principles.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4250#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4252",
+                    "subject_name" : "Enterprise Architecture and Innovation",
+                    "credits" : 7.5,
+                    "description" : "A course focusing on enterprise architecture and innovation in software engineering.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4252#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4259",
+                    "subject_name" : "Applied Data Science",
+                    "credits" : 7.5,
+                    "description" : "A course covering applied data science techniques in software engineering.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4259#tab=omEmnet"
+                }
+            ]
+        }
+    ]
+}

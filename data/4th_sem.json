@@ -1,0 +1,34 @@
+/* 1 */
+{
+    "semester" : "Semester 4",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4140",
+            "subject_name" : "Software Development",
+            "credits" : 7.5,
+            "description" : "This is a description of the course Software Development.",
+            "course_code_link" : "https://www.ntnu.edu/studies/courses/TDT4140#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4145",
+            "subject_name" : "Data Modeling and Database Systems",
+            "credits" : 7.5,
+            "description" : "This is a description of the course Data Modeling and Database Systems.",
+            "course_code_link" : "https://www.ntnu.edu/studies/courses/TDT4145#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4180",
+            "subject_name" : "Human Computer Interaction",
+            "credits" : 7.5,
+            "description" : "This is a description of the course Human Computer Interaction.",
+            "course_code_link" : "https://www.ntnu.edu/studies/courses/TDT4180#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TTM4100",
+            "subject_name" : "Communication Services and Networks",
+            "credits" : 7.5,
+            "description" : "This is a description of the course Communication Services and Networks.",
+            "course_code_link" : "https://www.ntnu.edu/studies/courses/TTM4100#tab=omEmnet"
+        }
+    ]
+}

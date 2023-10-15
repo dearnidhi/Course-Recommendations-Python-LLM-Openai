@@ -1,0 +1,238 @@
+/* 1 */
+{
+    "semester" : "Semester 5",
+    "course_name" : "Databases and Search",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4117",
+            "subject_name" : "Information Retrieval",
+            "credits" : 7.5,
+            "description" : "Learn about information retrieval techniques.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4117#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4136",
+            "subject_name" : "Introduction to Artificial Intelligence",
+            "credits" : 7.5,
+            "description" : "An introduction to artificial intelligence concepts.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4136#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TMA4135",
+            "subject_name" : "Mathematics 4D",
+            "credits" : 7.5,
+            "description" : "Advanced mathematics course related to databases and search.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TMA4135#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "IT2810",
+            "subject_name" : "Web Development",
+            "credits" : 7.5,
+            "description" : "Learn web development principles and practices.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT2810#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4137",
+            "subject_name" : "Cognitive Architectures",
+            "credits" : 7.5,
+            "description" : "Explore cognitive architectures and AI systems.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4137#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4165",
+            "subject_name" : "Programming Language",
+            "credits" : 7.5,
+            "description" : "Study various programming languages and their use.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4165#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4175",
+            "subject_name" : "Information Systems",
+            "credits" : 7.5,
+            "description" : "Learn about information systems and their management.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4175#tab=omEmnet"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("652686b3c352d52da9b7fc63"),
+    "semester" : "Semester 5",
+    "course_name" : "Artificial Intelligence",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4136",
+            "subject_name" : "Introduction to Artificial Intelligence",
+            "credits" : 7.5,
+            "description" : "Introduction to the fundamentals of artificial intelligence.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4136#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4137",
+            "subject_name" : "Cognitive Architectures",
+            "credits" : 7.5,
+            "description" : "Study cognitive architectures and AI systems.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4137#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TMA4135",
+            "subject_name" : "Mathematics 4D",
+            "credits" : 7.5,
+            "description" : "Advanced mathematics course related to AI.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TMA4135#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "IT2810",
+            "subject_name" : "Web Development",
+            "credits" : 7.5,
+            "description" : "Learn web development principles and practices.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT2810#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4117",
+            "subject_name" : "Information Retrieval",
+            "credits" : 7.5,
+            "description" : "Learn about information retrieval techniques in AI.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4117#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4165",
+            "subject_name" : "Programming Language",
+            "credits" : 7.5,
+            "description" : "Study various programming languages relevant to AI.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4165#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4175",
+            "subject_name" : "Information Systems",
+            "credits" : 7.5,
+            "description" : "Learn about information systems used in AI applications.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4175#tab=omEmnet"
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("65268839c352d52da9b7fc64"),
+    "semester" : "Semester 5",
+    "course_name" : "Software Engineering",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4136",
+            "subject_name" : "Introduction to Artificial Intelligence",
+            "credits" : 7.5,
+            "description" : "Introduction to the basics of artificial intelligence.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4136#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4175",
+            "subject_name" : "Information Systems",
+            "credits" : 7.5,
+            "description" : "Learn about information systems and their management.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4175#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TMA4135",
+            "subject_name" : "Mathematics 4D",
+            "credits" : 7.5,
+            "description" : "Advanced mathematics course related to software engineering.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TMA4135#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "IT2810",
+            "subject_name" : "Web Development",
+            "credits" : 7.5,
+            "description" : "Learn web development principles and practices.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT2810#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4117",
+            "subject_name" : "Information Retrieval",
+            "credits" : 7.5,
+            "description" : "Learn about information retrieval techniques in software engineering.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4117#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4137",
+            "subject_name" : "Cognitive Architectures",
+            "credits" : 7.5,
+            "description" : "Explore cognitive architectures and their applications in software engineering.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4137#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4165",
+            "subject_name" : "Programming Language",
+            "credits" : 7.5,
+            "description" : "Study various programming languages and their relevance to software engineering.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4165#tab=omEmnet"
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("6526888cc352d52da9b7fc65"),
+    "semester" : "Semester 5",
+    "course_name" : "Algorithms and Computers",
+    "mandatory" : [ 
+        {
+            "course_code" : "TDT4136",
+            "subject_name" : "Introduction to Artificial Intelligence",
+            "credits" : 7.5,
+            "description" : "An introduction to the basics of artificial intelligence.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4136#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4258",
+            "subject_name" : "Machine Based Programming",
+            "credits" : 7.5,
+            "description" : "Learn about machine-based programming and its applications.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4258#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TMA4135",
+            "subject_name" : "Mathematics 4D",
+            "credits" : 7.5,
+            "description" : "Advanced mathematics course related to algorithms and computers.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TMA4135#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "IT2810",
+            "subject_name" : "Web Development",
+            "credits" : 7.5,
+            "description" : "Learn web development principles and practices.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT2810#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4117",
+            "subject_name" : "Information Retrieval",
+            "credits" : 7.5,
+            "description" : "Learn about information retrieval techniques in algorithms and computers.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4117#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4137",
+            "subject_name" : "Cognitive Architectures",
+            "credits" : 7.5,
+            "description" : "Explore cognitive architectures and their applications in algorithms and computers.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4137#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4165",
+            "subject_name" : "Programming Language",
+            "credits" : 7.5,
+            "description" : "Study various programming languages and their relevance to algorithms and computers.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4165#tab=omEmnet"
+        }
+    ]
+}

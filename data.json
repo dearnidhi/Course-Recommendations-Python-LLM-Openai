@@ -1,0 +1,57 @@
+[
+    {
+        "semester": "Semester 2",
+        "mandatory": [
+            {
+                "course_code": "TDT4100",
+                "subject_name": "Object Oriented Programming",
+                "credits": 7.5,
+                "description": "This is a description of the course Object Oriented Programming.",
+                "course_code_link": "https://www.ntnu.edu/studies/courses/TDT4100#tab=omEmnet"
+            }
+        ]
+    },
+    {
+        "semester": "Semester 3",
+        "mandatory": [
+            {
+                "course_code": "TDT4113",
+                "subject_name": "Computer technology, programming project",
+                "credits": 7.5,
+                "description": "This is a description of the course Computer technology, programming project.",
+                "course_code_link": "https://www.ntnu.edu/studies/courses/TDT4113#tab=omEmnet"
+            },
+            {
+                "course_code": "TDT4120",
+                "subject_name": "Algorithms and Data Structures",
+                "credits": 7.5,
+                "description": "This is a description of the course Algorithms and Data Structures.",
+                "course_code_link": "https://www.ntnu.edu/studies/courses/TDT4120#tab=omEmnet"
+            }
+        ]
+    },
+    {
+        "semester": "Semester 4",
+        "mandatory": [
+            {
+                "course_code": "TDT4140",
+                "subject_name": "Software Development",
+                "credits": 7.5,
+                "description": "This is a description of the course Software Development.",
+                "course_code_link": "https://www.ntnu.edu/studies/courses/TDT4140#tab=omEmnet"
+            }
+        ]
+    },
+    {
+        "semester": "Semester 9",
+        "mandatory": [
+            {
+                "course_code": "TDT4501",
+                "subject_name": "Computer Science, Specialization Project",
+                "credits": 15.0,
+                "description": "A project focusing on computer science specialization.",
+                "course_code_link": "https://www.ntnu.edu/studies/courses/TDT4501#tab=omEmnet"
+            }
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+/* 1 */
+{
+    "semester" : "Semester 7",
+    "courses" : [ 
+        {
+            "course_name" : "Algorithms and Computers",
+            "mandatory" : [ 
+                {
+                    "course_code" : "COMP000",
+                    "subject_name" : "Complementary Subject",
+                    "credits" : 7.5,
+                    "description" : "A complementary subject for the Algorithms and Computers course.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/COMP000#tab=omEmnet"
+                }
+            ],
+            "choose_1" : [ 
+                {
+                    "course_code" : "TDT4290",
+                    "subject_name" : "Customer Managed Project",
+                    "credits" : 15.0,
+                    "description" : "A project management course focused on customer needs and solutions.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4290#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4295",
+                    "subject_name" : "Computer Project",
+                    "credits" : 15.0,
+                    "description" : "A computer project course for practical experience.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4295#tab=omEmnet"
+                }
+            ],
+            "choose_2" : [ 
+                {
+                    "course_code" : "TDT4195",
+                    "subject_name" : "Basic Visual Computing",
+                    "credits" : 7.5,
+                    "description" : "An introductory course in basic visual computing principles.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4195#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4200",
+                    "subject_name" : "Parallel Calculations",
+                    "credits" : 7.5,
+                    "description" : "A course on parallel computing techniques.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4200#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4255",
+                    "subject_name" : "Computer Design",
+                    "credits" : 7.5,
+                    "description" : "A course covering computer design principles.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4255#tab=omEmnet"
+                }, 
+                {
+                    "course_code" : "TDT4287",
+                    "subject_name" : "Algorithms for Bioinformatics",
+                    "credits" : 7.5,
+                    "description" : "A course on algorithms used in bioinformatics applications.",
+                    "course_link" : "https://www.ntnu.edu/studies/courses/TDT4287#tab=omEmnet"
+                }
+            ]
+        }
+    ]
+}

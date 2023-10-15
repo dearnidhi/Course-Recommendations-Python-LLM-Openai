@@ -1,0 +1,117 @@
+/* 1 */
+{
+    "semester" : "Semester 8",
+    "course_name" : "Databases and Search",
+    "mandatory" : [ 
+        {
+            "course_code" : "EIT0001",
+            "subject_name" : "Experts in Teams",
+            "credits" : 7.5,
+            "description" : "A course focusing on teamwork and collaboration.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/EIT0001#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "ENG0001",
+            "subject_name" : "Engineering Subject from another program",
+            "credits" : 7.5,
+            "description" : "A subject from another engineering program.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/ENG0001#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4305",
+            "subject_name" : "Big Data Architecture",
+            "credits" : 7.5,
+            "description" : "Study the architecture of big data systems.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4305#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "TDT4150",
+            "subject_name" : "Advanced Database Systems",
+            "credits" : 7.5,
+            "description" : "Advanced study of database systems.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4150#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4215",
+            "subject_name" : "Recommendation Systems",
+            "credits" : 7.5,
+            "description" : "Study recommendation system algorithms.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4215#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4237",
+            "subject_name" : "Software Security and Privacy",
+            "credits" : 7.5,
+            "description" : "Learn about software security and privacy.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4237#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4265",
+            "subject_name" : "Computer Vision and Deep Learning",
+            "credits" : 7.5,
+            "description" : "Explore computer vision and deep learning techniques.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4265#tab=omEmnet"
+        }
+    ]
+}
+
+/* 2 */
+{
+    "semester" : "Semester 8",
+    "course_name" : "Artificial Intelligence",
+    "mandatory" : [ 
+        {
+            "course_code" : "EIT0001",
+            "subject_name" : "Experts in Teams",
+            "credits" : 7.5,
+            "description" : "A course focusing on teamwork and collaboration.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/EIT0001#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "ENG0001",
+            "subject_name" : "Engineering Subject from another program",
+            "credits" : 7.5,
+            "description" : "A subject from another engineering program.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/ENG0001#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "IT3105",
+            "subject_name" : "Artificial Intelligence Programming",
+            "credits" : 7.5,
+            "description" : "Introduction to programming for artificial intelligence.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT3105#tab=omEmnet"
+        }
+    ],
+    "choose_1" : [ 
+        {
+            "course_code" : "IT3030",
+            "subject_name" : "Deep Learning",
+            "credits" : 7.5,
+            "description" : "In-depth study of deep learning techniques.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT3030#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "IT3708",
+            "subject_name" : "Bio-Inspired Artificial Intelligence",
+            "credits" : 7.5,
+            "description" : "Explore bio-inspired AI concepts and algorithms.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/IT3708#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4215",
+            "subject_name" : "Recommendation Systems",
+            "credits" : 7.5,
+            "description" : "Study recommendation system algorithms.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4215#tab=omEmnet"
+        }, 
+        {
+            "course_code" : "TDT4310",
+            "subject_name" : "Intelligent Text Analysis and Language Comprehension",
+            "credits" : 7.5,
+            "description" : "Learn about text analysis and language comprehension in AI.",
+            "course_link" : "https://www.ntnu.edu/studies/courses/TDT4310#tab=omEmnet"
+        }
+    ]
+}
