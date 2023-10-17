@@ -34,8 +34,13 @@ def get_course_recommendations(searched_semester_name):
         'Semester 2': '2nd_sem',
         'Semester 3': '3rd_sem',
         'Semester 4': '4th_sem',
+        'Semester 5': '5th_sem',
+        'Semester 6':  '6th_sem',
+        'Semester 7': '7th_sem',
+        'Semester 8': '8th_sem',
         'Semester 9': '9th_sem',
         'Semester 10': '10th_sem'
+
     }
 
     # Check if the searched semester is in the mapping
