@@ -1,75 +1,85 @@
-/* Resetting some default styles */
-body, h1, h2, h3, p, ul, li {
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    text-align: center;
 }
 
-body {
-    background-color: #f4f4f9;
-    color: #333;
-    font-size: 16px;
-    line-height: 1.6;
+/* Title style */
+h1 {
+    background-color: #007bff;
+    color: #fff;
     padding: 20px;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-h2 {
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-h3 {
-    margin-top: 10px;
-    color: #e74c3c;
-}
-
+/* Recommended course list styles */
 ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
 }
 
 li {
-    background-color: #ecf0f1;
-    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* The "div" selector may need a specific class or ID selector */
-div {
-    margin-bottom: 10px;
+/* Mandatory subjects list styles */
+ul ul {
+    padding-left: 20px;
 }
 
-p {
-    margin-bottom: 10px;
-}
-
-a {
-    display: inline-block;
-    background-color: #3498db;
-    color: #ecf0f1;
-    padding: 6px 12px;
-    border-radius: 5px;
+/* Learn more button style */
+a.learn-more-button {
+    background-color: #007bff;
+    color: #fff;
     text-decoration: none;
-    transition: background-color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-a:hover {
-    background-color: #2980b9;
+a.learn-more-button:hover {
+    background-color: #0056b3;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
-    }
+/* Updated styles for the Logout icon and text */
+.logout-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.logout-icon:hover {
+    background-color: #0056b3;
+}
+
+/* Style for Log Out text */
+.logout-text {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Center the Logout icon and text */
+.logout-icon,
+.logout-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Adjustments to improve readability */
+h2, h3, h4, h5 {
+    margin: 10px 0;
 }

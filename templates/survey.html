@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey for MSc. Computer Science Students</title>
+    <link rel="stylesheet" href="static/survey.css">
+</head>
+<body>
+    <form action="submit_survey" method="POST" class="survey-form">
+        <h2 class="form-title">Survey for MSc. Computer Science Students</h2>
+
+        <!-- What Draws You to Computer Science -->
+        <div class="form-section">
+            <label class="label">What initially drew you to study computer science?</label>
+            <textarea name="initialInterest" class="textarea" rows="4"></textarea>
+        </div>
+    
+        <!-- Challenges and Problem-Solving -->
+        <div class="form-section">
+            <label class="label">What kind of technical challenges excite you the most?</label>
+            <textarea name="techChallenges" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- Project Experience -->
+        <div class="form-section">
+            <label class="label">Describe a project you've worked on that you're particularly proud of and would like to do more of. This can be hypothetical.</label>
+            <textarea name="proudProject" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- AI Interest -->
+        <div class="form-section">
+            <label class="label">What are your thoughts on the field of Artificial Intelligence? Does the field interest you? If so, what interests you about it and what do you think we could achieve with AI?</label>
+            <textarea name="aiInterest" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- Databases and Search -->
+        <div class="form-section">
+            <label class="label">How important do you think data management is in today's world? Are you interested in databases or search algorithms? How can you see yourself working with data?</label>
+            <textarea name="dbInterest" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- Software Engineering -->
+        <div class="form-section">
+            <label class="label">Do you enjoy working on larger projects as part of a team? Are you interested in the software development lifecycle? Do you like being handed specific tasks, and achieve results frequently?</label>
+            <textarea name="seInterest" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- Algorithms and Computers -->
+        <div class="form-section">
+            <label class="label">Do you find joy in problem-solving or optimizing for performance? Are you interested in the theoretical aspects of computing? Do you like working in detail for optimization or on a higher level for visible results?</label>
+            <textarea name="algoInterest" class="textarea" rows="4"></textarea>
+        </div>
+
+        <!-- Long-term Career Goals and Interests -->
+        <div class="form-section">
+            <label class="label">Long-term Career Goals and Interests</label>
+            <textarea name="longTermGoals" class="textarea" rows="4" placeholder="Describe your long-term career goals and interests, this will help us lay out a customized career plan personalized for you."></textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Complete Survey</button>
+    </form>
+</body>
+</html>
