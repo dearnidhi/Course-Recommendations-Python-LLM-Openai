@@ -12,20 +12,40 @@
     <div class="container">
         <h2>User Profile</h2>
 
-        <h3>Survey Responses</h3>
-        <p><strong>Your Email Id:</strong> {{ user_data.user_email }}</p>
-        <p><strong>Coding Interests:</strong> {{ user_data.codingInterests }}</p>
-        <p><strong>Favorite Programming Language:</strong> {{ user_data.favoriteLanguage }}</p>
-        <p><strong>Experience Level:</strong> {{ user_data.experienceLevel }}</p>
-        <p><strong>Preferred Industry:</strong> {{ user_data.preferredIndustry }}</p>
-        <p><strong>Learning Resources:</strong>
-            {% if user_data.learningResources1 %} {{ user_data.learningResources1 }}, {% endif %}
-            {% if user_data.learningResources2 %} {{ user_data.learningResources2 }}, {% endif %}
-            {% if user_data.learningResources3 %} {{ user_data.learningResources3 }}, {% endif %}
-            {% if user_data.learningResources4 %} {{ user_data.learningResources4 }}, {% endif %}
-            {% if user_data.learningResources5 %} {{ user_data.learningResources5 }} {% endif %}
-        </p>
-        <p><strong>Preferred Work Environment:</strong> {{ user_data.workEnvironment }}</p>
+        <strong><h2>Survey Responses</h2></strong>
+        <h3>Your Email Id:</h3>
+        <p>{{ user_data.user_email }}</p>
+
+        <h3>What initially drew you to study computer science?</h3>
+        <p> {{ user_data.initialInterest }}</p>
+
+        <h3>What kind of technical challenges excite you the most?</h3>
+        <p> {{ user_data.techChallenges }}</p>
+        
+        <h3>Describe a project you've worked on that you're
+            particularly proud of and would like to do more of. This can be hypothetical:</h3>
+            <p> {{ user_data.proudProject }}</p>
+        
+            <h3>What are your thoughts on the field
+            of Artificial Intelligence? Does the field interest you? If so, 
+            what interests you about it and what do you think we could achieve with AI?</h3> 
+            <p>{{ user_data.aiInterest }}</p>
+        
+        <h3>How important do you think data management is in today's
+            world? Are you interested in databases or search algorithms? 
+            How can you see yourself working with data?</h3>
+            <p>{{ user_data.dbInterest }}</p>
+            
+        <h3>Do you enjoy working on larger projects as part 
+            of a team? Are you interested in the software development lifecycle? 
+            Do you like being handed specific tasks, and achieve results frequently?</h3> 
+            <p>{{ user_data.seInterest }}</p>
+
+            
+        <h3>Do you find joy in problem-solving or
+            optimizing for performance? Are you interested in the theoretical aspects of computing?
+            Do you like working in detail for optimization or on a higher level for visible results?</h3>
+            <p> {{ user_data.algoInterest }}</p>
 
         <h3>Long-term Career Goals and Interests</h3>
         <p>{{ user_data.longTermGoals }}</p>

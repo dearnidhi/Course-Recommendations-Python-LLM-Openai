@@ -3,6 +3,7 @@ from pymongo import MongoClient
 import bcrypt
 from datetime import datetime
 from functions import is_logged_in,get_formatted_course_list
+from llm_model import get_course_name
 
 app = Flask(__name__)
 app.secret_key = 'Welcome'
@@ -138,10 +139,10 @@ def recommendations():
         # user_course_name = request.form.get('course_name', 'Software Engineering')
         user_semester = request.form.get('semester', 'Semester 1')
         email= session["email"]
-        get_users_survey_data = users_survey_data.find_one({"user_email":email})
-        print(get_users_survey_data)
-        user_course_name = get_users_survey_data.get('codingInterests','Software Engineering')
-        print(user_course_name)
+        #get_users_survey_data = users_survey_data.find_one({"user_email":email})
+        #print(get_users_survey_data)
+        #user_course_name = get_users_survey_data.get('codingInterests','Software Engineering')
+        #print(user_course_name)
         # print(user_semester)
         # Mongo query to retrieve semester details
         # query = {
@@ -151,6 +152,11 @@ def recommendations():
         #     ],
         #     "semester": {"$gte": user_semester}
         # }
+
+
+
+        user_course_name=get_course_name(email)
+        print(user_course_name)
         query ={
   "$or": [
     {
@@ -181,7 +187,9 @@ def recommendations():
         print("************************************")
         print("formatted courses \n",formatted_courses)
         print("-------------------------------------")
-        return render_template('recommendations.html',user_semester=user_semester,  courses=formatted_courses, user_course_name=user_course_name)
+
+        survey_data=users_survey_data.find_one({'user_email': email})  
+        return render_template('recommendations.html',user_semester=user_semester,  courses=formatted_courses, user_course_name=user_course_name,survey_data=survey_data)
     return redirect(url_for('login'))
 
 
